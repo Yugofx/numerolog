@@ -53,7 +53,7 @@ function calculateMatrix(day, month, year) {
   const third = Math.abs(first - 2 * firstDigit);
 
   // Fourth additional number - reduce third
-  const fourth = reduceToSingleDigit(third);
+  const fourth = sumDigits(third);
 
   // All digits for counting
   const allDigits =
